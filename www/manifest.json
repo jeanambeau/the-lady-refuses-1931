@@ -1,0 +1,18 @@
+
+        {
+          "name": "The Lady Refuses 1931 Lite",
+          "short_name": "The Lady Refuses 1931",
+          "start_url": "index.html",
+          "display": "standalone",
+          "icons":[{"src": "data/images/header/logo.png"}],
+          "prefer_related_applications": true,
+          "related_applications": [
+            {
+              "platform": "play",
+              "id": "com.imabuilder.bighousepub.theladyrefuses1931"
+            }
+          ],
+         "background_color": "#ffffff",
+         "theme_color": "#000000"
+        }
+                
