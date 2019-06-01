@@ -78,6 +78,9 @@
 	<platform name="ios">
 		<preference name="ErrorUrl" value="Application Error" />
 	</platform>
+
+    <uses-feature android:name="android.software.leanback" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 	<feature name="StatusBar">
 		<param name="ios-package" onload="true" value="CDVStatusBar"/>
 	</feature>
@@ -115,5 +118,4 @@
 <plugin name="cordova-plugin-admobpro" source="npm">
 <variable name="PLAY_SERVICES_VERSION" value="16.0.0" />
 </plugin>
-<uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 </widget>
